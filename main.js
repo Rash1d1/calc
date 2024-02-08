@@ -13,7 +13,7 @@ buttons.map((button) => {
                     display.innerText = eval(display.innerText).toFixed(2);
                 }
                 catch (e) {
-                    display.innerText = "Wrong expression";
+                    display.innerText = "Error";
                 }
                 break;
             case "%":
